@@ -2,8 +2,7 @@ name: Daily Weather Bot
 
 on:
   schedule:
-    # Запуск каждый день в 05:00 по UTC (это 08:00 по Москве/Краснодару)
-    - cron: '0 4 * * *'
+    - cron: '20 6 * * *'
   workflow_dispatch: # Позволяет запускать вручную для теста
 
 jobs:
