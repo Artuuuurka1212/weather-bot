@@ -2,7 +2,7 @@ name: Daily Weather Bot
 
 on:
   schedule:
-    - cron: '20 6 * * *'
+    - cron: '20 3 * * *'
   workflow_dispatch: # Позволяет запускать вручную для теста
 
 jobs:
